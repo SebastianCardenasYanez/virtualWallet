@@ -1,0 +1,53 @@
+:root{
+    /* --color-1: #33404F;
+    --color-2: #00DDA3; */
+    --color-3-1: #B5C5C3;
+    --color-1: #000000;
+    --color-2: #1E88E5;
+    --color-3: #808080;
+    --color-4: #fff;
+    /* --color-5: #E1FFEF; */
+    --color-5: #c6e8f3;
+    --space-layout-padding-lr: 0px 15px;
+}
+
+@font-face {
+    font-family: "Heavy" ;
+    src: url("../storage/font/Poppins-Black.ttf");
+}
+
+
+@font-face {
+    font-family: "Blod" ;
+    src: url("../storage/font/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Light" ;
+    src: url("../storage/font/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: "Medium" ;
+    src: url("../storage/font/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Regular" ;
+    src: url("../storage/font/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Semiblod" ;
+    src: url("../storage/font/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Blod";
+    src: url(../storage/font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../storage/font/Roboto-Medium.ttf);
+}
