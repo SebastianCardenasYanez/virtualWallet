@@ -13,41 +13,31 @@
 
 @font-face {
     font-family: "Heavy" ;
-    src: url("../storage/font/Poppins-Black.ttf");
+    src: url("../storage/font/SF-Pro-Text-Heavy.otf");
 }
 
 
 @font-face {
     font-family: "Blod" ;
-    src: url("../storage/font/Poppins-Bold.ttf");
+    src: url("../storage/font/SF-Pro-Text-Bold.otf");
 }
 
 @font-face {
-    font-family: "Light" ;
-    src: url("../storage/font/Poppins-Light.ttf");
+    font-family: "light" ;
+    src: url("../storage/font/SF-Pro-Text-Light.otf");
 }
 
 @font-face {
     font-family: "Medium" ;
-    src: url("../storage/font/Poppins-Medium.ttf");
+    src: url("../storage/font/SF-Pro-Text-Medium.otf");
 }
 
 @font-face {
     font-family: "Regular" ;
-    src: url("../storage/font/Poppins-Regular.ttf");
+    src: url("../storage/font/SF-Pro-Text-Regular.otf");
 }
 
 @font-face {
     font-family: "Semiblod" ;
-    src: url("../storage/font/Poppins-SemiBold.ttf");
-}
-
-@font-face {
-    font-family: "Roboto-Blod";
-    src: url(../storage/font/Roboto-Bold.ttf);
-}
-
-@font-face {
-    font-family: "Roboto-Medium";
-    src: url(../storage/font/Roboto-Medium.ttf);
+    src: url("../storage/font/SF-Pro-Text-Semibold.otf");
 }
