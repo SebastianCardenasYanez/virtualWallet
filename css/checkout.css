@@ -1,0 +1,228 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* overflow: hidden; */
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-layout-padding-lr);
+    margin-top: 5px;
+    color: var(--color-4);
+    margin-bottom: 5px;
+    z-index: 5;
+    position: relative;
+    font-family: "Blod" ;
+}
+
+.header img{
+    width: 30px;
+}
+
+.header__icon {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*--------main--------*/
+
+ .main__section{
+    width: 100%;
+    height: 55%;
+    background-image: url("../storage/img/BgCircle.svg");
+    border-radius: 50%;
+    position: absolute;
+    top: -190px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    z-index: 0;
+ }
+
+.circle__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 190px;
+    color: var(--color-4);
+    border-radius: 50%;
+    background-color: var(--color-2);
+    position: absolute;
+    top: 250px;
+}
+
+.circle__content h3{
+    font-family: "Blod" ;
+}
+
+.circle__content strong{
+    font-family: "Blod" ;
+}
+
+/*-----second section-------*/
+
+
+.second__section{
+    width: 100%;
+    margin-top: 58%;
+
+}
+
+.second__section img{
+    width: 100%;
+    padding: var(--space-layout-padding-lr);
+}
+
+
+.second__article {
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+    padding: var(--space-layout-padding-lr);
+    margin-bottom: 15px;
+    font-family: "Regular" ;
+}
+.content__article_1 {
+    width: 25%;
+    display: flex;
+    border-radius: 60px;
+    background-color: var(--color-1);
+    color: var(--color-4);
+    justify-content: center;
+    align-items: center;
+}
+
+.content__article_2 {
+    width: 25%;
+    display: flex;
+    border-radius: 60px;
+    background-color: var(--color-4);
+    color: var(--color-2);
+    border: 1px solid var(--color-2);
+    justify-content: center;
+    align-items: center;
+}
+
+.content__article_3 {
+    width: 25%;
+    display: flex;
+    border-radius: 60px;
+    background-color: var(--color-4);
+    color: var(--color-3);
+    border: 1px solid var(--color-3);
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*-------thrid section----------*/
+
+
+.third__article {
+    background-color: var(--color-5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 60px;
+}
+
+.third__article .cardasd{
+    align-self: center;
+    width: 25%;
+}
+
+.third__article .asd {
+    position: absolute;
+    width: 50px;
+    right: 0;
+    top: 10px;
+    cursor: pointer;
+}
+
+.content__ad {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 30px;
+    padding: 4px;
+    padding-bottom: 30px;
+}
+
+.content__ad h4{
+    font-family: "Blod" ;
+
+}
+
+.content__ad p{
+    font-family: "Regular" ;
+    color: var(--color-3);
+    font-size: 12px;
+}
+
+.exit__article {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.exit__article img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+/*----------footer-------*/
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+.footer__ul {
+    background-color: var(--color-1);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer__ul li{
+    list-style: none;
+    background: var(--color-1);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__ul img{
+    width: 100%;
+}
+
+.footer__ul li a {
+    display: flex;
+}
+
+.footer__ul li a img{
+    object-fit: contain;
+}
