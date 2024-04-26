@@ -2,6 +2,7 @@
     --color-1: #33404F;
     --color-2: #00DDA3;
     --color-3: #B5C5C3;
+    --color-4: #fff;
     --space-layout-padding-lr: 0px 15px;
 }
 
@@ -17,7 +18,7 @@
 }
 
 @font-face {
-    font-family: "light" ;
+    font-family: "Light" ;
     src: url("../storage/font/SF-Pro-Text-Light.otf");
 }
 
@@ -34,4 +35,14 @@
 @font-face {
     font-family: "Semiblod" ;
     src: url("../storage/font/SF-Pro-Text-Semibold.otf");
+}
+
+@font-face {
+    font-family: "Roboto-Blod";
+    src: url(../storage/font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../storage/font/Roboto-Medium.ttf);
 }

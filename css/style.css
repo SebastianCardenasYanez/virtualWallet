@@ -24,57 +24,99 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: var(--space-layout-padding-lr);
+    color: var(--color-4);
+    margin-bottom: 5px;
 }
+
+.header img{
+    width: 30px;
+}
+
 .header__icon {
+    width: 120px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
+
+
 /*--------main section---------*/
 
 
 .main {
-
+    padding: var(--space-layout-padding-lr);
     
 }
 .main__section {
     background-image: url("../storage/img/BG.svg");
+    color: var(--color-4);
 }
-.section__article {
+
+.article__text h2{
+    font-family: "Heavy" ;
+    font-size: 33px;
 }
-.article__text {
+
+.article__text span{
+    font-family: "Light" ;
+    font-size: 33px;
 }
+
 .article__stats {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-around;
+    margin-top: 18px;
 }
 .stats__content{
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 100px;
+    width: 140px;
+    gap: 6px;
 }
 
-.vertical__bar_up {
-    width: 70%;
-    height: 12px;
-    background-color: var(--color-2);
-    z-index: 5;
-    position: absolute;
-    border-radius: 22px;
-    margin-top: 37.7px;
-    
-}
-.vertical__bar_down {
-    width: 100%;
-    border-radius: 22px;
-    height: 12px;
-    background-color: #fff;
-    z-index: 0;
+.stats__content span:first-child{
+    font-family: "Medium";
+    font-size: 14px;
 }
 
+.stats__content span:last-child{
+    font-family: "Roboto-Medium";
 
+}
 
+.stats__content strong{
+    font-family: "Roboto-Blod";
+    font-size: 25px;
+}
+
+.progress_1{
+    width: 140px;
+}
+.progress_1[value] {
+    --color: var(--color-2)
+}
+
+progress[value] {
+    --color: var(--color-3);
+    --background: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 1em;
+    background: var(--background);
+    height: 7px;
+  }
+progress[value]::-webkit-progress-bar {
+    border-radius: 1em;
+    background: var(--background);
+}
+progress[value]::-webkit-progress-value {
+    border-radius: 1em;
+    background: var(--color);
+}
 
 /*--------footer----------*/
 .footer {
