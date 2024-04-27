@@ -158,12 +158,12 @@ h3{
     grid-template-rows: auto;
     margin-bottom: 15px;
     gap: 10px;
-    height: 20vh;
+    height: 18vh;
 
 }
 
 .grid__content {
-    padding: 10px;
+    padding: 5px;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -175,15 +175,18 @@ h3{
     font-family: "SemiBlod";
 }
 
-/* .grid__content img{
-    width: 15vw;
-} */
+
+.article__grid div:hover{
+    transform: scale(1.04);
+    background-color: var(--color-3);
+    transition: 0.5s;
+}
 
 
 
 .article__transactions {
     
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 30px;
     overflow-y:scroll;
     display: flex;
