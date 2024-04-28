@@ -116,22 +116,59 @@ button{
 /*-----main section 2------*/
 
 .section__2 {
-    
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    grid-auto-flow: column;
+    gap: 10px;
+    overflow-x: scroll;
 }
 .article__cards {
-
+    background-image: url("../storage/img/BgCard.svg");
+    color: var(--color-4);
+    background-color: var(--color-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8%;
+    border-radius: 30px;
+    width: 50vw;
+    height: 40vh;
 }
 .chip__number__card {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Semiblod" ;
 }
+
+.chip__number__card img{
+    width: 6vw;
+}
+
 .money__card {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Blod" ;
 }
-.icon__card {
-
+.icon__card img {
+    width: 8vw;
 }
 
 
+
+.article__cards_1 {
+    background-image: url("../storage/img/BgCard.svg");
+    color: var(--color-4);
+    background-color: var(--color-3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8%;
+    border-radius: 30px;
+    width: 50vw;
+    height: 40vh;
+}
 
 
 /*--------footer----------*/

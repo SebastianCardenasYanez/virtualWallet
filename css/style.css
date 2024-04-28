@@ -193,6 +193,7 @@ h3{
     margin-top: 10px;
     margin-bottom: 20px;
     overflow-y:scroll;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     width: 100%;
