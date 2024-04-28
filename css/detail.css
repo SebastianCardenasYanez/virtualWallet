@@ -128,6 +128,7 @@ button{
     grid-auto-flow: column;
     gap: 10px;
     overflow-x: scroll;
+    padding: var(--space-layout-padding-lr);
 }
 .article__cards {
     background-image: url("../storage/img/BgCard.svg");
@@ -139,7 +140,7 @@ button{
     padding: 8%;
     border-radius: 30px;
     width: 50vw;
-    height: 40vh;
+
 }
 .chip__number__card {
     display: flex;
