@@ -126,7 +126,7 @@ button{
     display: grid;
     grid-template-columns: repeat(auto-fit);
     grid-auto-flow: column;
-    gap: 10px;
+    gap: 20px;
     overflow-x: scroll;
     padding: var(--space-layout-padding-lr);
 }
@@ -140,7 +140,7 @@ button{
     padding: 8%;
     border-radius: 30px;
     width: 50vw;
-
+    
 }
 .chip__number__card {
     display: flex;
