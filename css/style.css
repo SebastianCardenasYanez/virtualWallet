@@ -166,6 +166,7 @@ h3{
     gap: 15px;
     height: 25vh;
     overflow-x: scroll;
+    scrollbar-width: none;
 
 }
 
@@ -188,7 +189,7 @@ h3{
 
 
 .article__grid div:hover{
-    transform: scale(1.04);
+    transform: scale(1.07);
     background-color: var(--color-3);
     transition: 0.5s;
 }
@@ -200,6 +201,7 @@ h3{
     margin-top: 10px;
     margin-bottom: 30px;
     overflow-y:scroll;
+    scrollbar-width: none;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
