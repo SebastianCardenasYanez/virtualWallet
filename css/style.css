@@ -153,22 +153,28 @@ progress[value]::-webkit-progress-value {
 
 h3{
     font-family: "Blod";
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .article__grid {
     margin-top: 15px;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit);
+    grid-auto-flow: column;
     margin-bottom: 15px;
     gap: 15px;
-    height: 22vh;
+    height: 25vh;
+    overflow-x: scroll;
 
 }
 
 .grid__content {
     padding: 5px;
-    width: 26vw;
+    margin-top: 9px;
+    margin-left: 5px;  
+    width: 28vw;
+    height: 22vh;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -192,14 +198,14 @@ h3{
 .article__transactions {
     
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     overflow-y:scroll;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
-    height: 18vh ;
+    height: 40vh;
 
 
 }
