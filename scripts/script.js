@@ -9,4 +9,4 @@ function nextSlide() {
   }, 100); /* Retraso para reiniciar la animación */
 }
 
-setInterval(nextSlide, 9000); /* 9000 milisegundos = 9 segundos, ajusta según desees */
+setInterval(nextSlide, 13000); /* 9000 milisegundos = 9 segundos, ajusta según desees */
