@@ -13,33 +13,33 @@
 
 @font-face {
     font-family: "Heavy" ;
-    src: url("../storage/font/SF-Pro-Text-Heavy.otf");
+    src: url("../storage/font/Poppins-Black.ttf");
 }
 
 
 @font-face {
     font-family: "Blod" ;
-    src: url("../storage/font/SF-Pro-Text-Bold.otf");
+    src: url("../storage/font/Poppins-Bold.ttf");
 }
 
 @font-face {
     font-family: "Light" ;
-    src: url("../storage/font/SF-Pro-Text-Light.otf");
+    src: url("../storage/font/Poppins-Light.ttf");
 }
 
 @font-face {
     font-family: "Medium" ;
-    src: url("../storage/font/SF-Pro-Text-Medium.otf");
+    src: url("../storage/font/Poppins-Medium.ttf");
 }
 
 @font-face {
     font-family: "Regular" ;
-    src: url("../storage/font/SF-Pro-Text-Regular.otf");
+    src: url("../storage/font/Poppins-Regular.ttf");
 }
 
 @font-face {
     font-family: "Semiblod" ;
-    src: url("../storage/font/SF-Pro-Text-Semibold.otf");
+    src: url("../storage/font/Poppins-SemiBold.ttf");
 }
 
 @font-face {

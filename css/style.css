@@ -83,13 +83,10 @@ body{
     font-size: 14px;
 }
 
-.stats__content span:last-child{
-    font-family: "Roboto-Medium";
 
-}
 
 .stats__content strong{
-    font-family: "Roboto-Blod";
+    font-family: "Blod";
     font-size: 25px;
 }
 
