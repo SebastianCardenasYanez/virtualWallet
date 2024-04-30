@@ -8,8 +8,8 @@
 }
 
 body{
-    background-color: var(--color-1);
-    background-image: url("../storage/img/BG.svg");
+    background: linear-gradient(120deg, var(--color-1), var(--color-2));
+    /* background-image: url("../storage/img/noise.svg"); */
 }
 
 
@@ -50,7 +50,6 @@ body{
 }
 .main__section {
     margin-top: 30px;
-    background-image: url("../storage/img/BG.svg");
     color: var(--color-4);
     padding: var(--space-layout-padding-lr);
 }

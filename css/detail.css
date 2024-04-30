@@ -51,8 +51,7 @@
 
 .main_article {
     display: flex;
-    border-radius: 40px;
-    position: relative;
+    border-radius: 20px;
     height: 20vh;
     padding-left: 180px;
     padding-bottom: 5PX;
@@ -83,11 +82,12 @@
 }
 
 .content__article {
-    float: right;
+    margin-right: 20px;
+    margin-left: -10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5px;
+    gap: 2px;
 }
 
 .content__article h3{
@@ -105,6 +105,10 @@
 .exit__article {
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    float: right;
+    margin-top: 5px;
+    margin-left: 150px;
 }
 
 .exit__article img{
@@ -155,7 +159,7 @@ button{
     transform: scale(1.02);
     transition: 0.5s;
     box-shadow: 1px 3px 18px var(--color-3);
-    
+
 }
 
 .chip__number__card {
