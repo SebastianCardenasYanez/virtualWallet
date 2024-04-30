@@ -253,6 +253,12 @@ h3{
 
 .div__content_right strong{
     font-family: "Blod" ;
+    color: var(--color-2);
+}
+
+.div__content_right h4{
+    font-family: "Blod" ;
+    color: var(--color-1);
 }
 
 
