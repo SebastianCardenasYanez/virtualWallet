@@ -2,8 +2,7 @@
 https://www.figma.com/community/file/928559061120466831
 
 **eWallet**
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gUk8lt0-D3o?si=TohERMAIzsGyhLR7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For the carousel i used **javaScript**
 ![image](https://github.com/SebastianCardenasYanez/virtualWallet/assets/160754840/8d4ae190-b011-40dc-968f-caf394cad330)
